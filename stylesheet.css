@@ -1,0 +1,72 @@
+.india{
+    text-align: center;
+    background-image: linear-gradient(orange,white,green);
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 0 100px 0 100px;
+}
+
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ec0e97;
+    border-radius: 10px;
+}
+
+
+li{
+    float: left;
+}
+
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+
+li a:hover{
+    background-image: linear-gradient(orange,white,green);
+    color: blue;
+}
+
+i{
+    font-size: 20px;
+}
+
+
+div.para{
+    text-align: center;
+    margin: 0 50px 0 50px;
+    border: 1px solid black;
+}
+
+
+div.gallery{
+    margin: 50px 50px 50px 50px;
+    margin-left: 150px;
+    border: 1px solid #ccc;
+    float: left;
+    padding: 50px;
+}
+
+
+div.gallery:hover{
+    border: 2px solid #777;
+}
+
+div.gallery img{
+    width: 100%;
+    height: auto;
+}
+
+div.desc{
+    padding: 15px;
+    text-align: center;
+}

@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Enquiry</title>
+        <style>
+            form{
+                text-align: center;
+                border: 1px solid black;
+                box-sizing: border-box;
+                padding: 14px 15px;
+            }
+        </style>
+    </head>
+    <body>
+        <form action="action_pahe.php">
+            <label for="fname">Name</label><br>
+            <input type="text" id="fname" name="name" placeholder="Type Your Name" required><br><br>
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email" placeholder="Type Your Email Address" required><br><br>
+            <label for="desti">Destination</label><br>
+            <input type="text" id="desti" name="name" placeholder="Where To Go?" required><br><br>
+            <label for="depar">Departure City</label><br>
+            <input type="text" id="depar" name="name" placeholder="Departure From" required><br><br>
+            <label for="no">Phone No</label><br>
+            <input type="tel" id="no" name="no" placeholder="Phone no" pattern="[0-9]{4}-[0-9]{2}-[0-9]{4}" required><br><br>
+            <button type="submit">Submit</button>
+        </form>
+    </body>
+</html>
